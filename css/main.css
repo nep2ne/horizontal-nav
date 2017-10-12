@@ -2,30 +2,43 @@ html {
   background-color: #dbd6cf;
   box-sizing: border-box;
   text-align: center;
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0;
+}
+
 a {
-  border-radius: 10px;
   background-color: #713837
+  border-radius: 5px;
   color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: #f33;
+  border-radius: 5px;
   color: #fff;
 }
 
 h1 {
   color: #fff;
-}
-
-header {
-  border: #595652;
 }
 
 ul {
