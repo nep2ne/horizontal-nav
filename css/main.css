@@ -2,8 +2,9 @@ html {
   background-color: #dbd6cf;
   box-sizing: border-box;
   text-align: center;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, serif;
   line-height: 1.5;
+  width: 60%;
 }
 
 *, *::before, *::after {
@@ -53,6 +54,7 @@ a:hover {
 
 h1 {
   color: #fff;
+  font-family: Bevan, serif;
   margin: 0;
 }
 
