@@ -1,6 +1,8 @@
 html {
   background-color: #dbd6cf;
   box-sizing: border-box;
+  text-align: center;
+  font-family: "Bevan", cursive;
 }
 
 *, *::before, *::after {
@@ -9,9 +11,23 @@ html {
 
 a {
   border-radius: 10px;
-  color: #713837
+  background-color: #713837
+  color: #fff;
 }
 
 a:hover {
-  color: #f33;
+  background-color: #f33;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+header {
+  border: #595652;
+}
+
+ul {
+  list-style-type: none;
 }
