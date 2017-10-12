@@ -6,3 +6,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+a {
+  border-radius: 10px;
+  color: #713837
+}
+
+a:hover {
+  color: #f33;
+}
