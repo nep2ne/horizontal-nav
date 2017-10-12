@@ -3,7 +3,6 @@ html {
   box-sizing: border-box;
   text-align: center;
   line-height: 1.5;
-  width: 100%;
 }
 
 *, *::before, *::after {
@@ -26,8 +25,13 @@ nav ul {
   text-align: center;
 }
 
+.nav {
+  margin: 0 .3em;
+  padding: 0 .6em .6em;
+}
+
 .nav li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav a {
@@ -55,6 +59,7 @@ h1 {
   color: #fff;
   font-family: Bevan, serif;
   margin: .3em 0 0;
+  text-align: center;
 }
 
 ul {
